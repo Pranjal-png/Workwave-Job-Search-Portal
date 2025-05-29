@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOB SEARCH PORTAL</title>
+    
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js"></script>
+
+  </head>
+  <body onload="greet()">
+    <div id="main">
+      <div id="header">
+        <div id="logo">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.UNLKpGrK0hyLrGOU24tr0gAAAA&pid=Api&P=0&h=180" />
+        </div>
+        <div class="text"><p onclick="location.href='jobs.html'">Jobs</p></div>
+        <div class="text"><p onclick="location.href='companies.html'">Companies</p></div>
+        <div class="text"><p onclick="location.href='internships.html'">Internships</p></div>
+        <div class="text"><p onclick="location.href='learning.html'">learning</p></div>
+        <div class="text"><p onclick="location.href='support.html'">support</p></div>
+        <div class="text">
+          <p onclick="location.href='more.html'">more <i class="ri-arrow-drop-down-line"></i></p>
+        </div>
+        <div id="contactdetails">
+          <p style="text-align: center"><u>Contact Us</u></p>
+          <p>0000-000-0000</p>
+        </div>
+        <div class="icon"><i class="ri-search-line"></i></div>
+        <div class="icon"><i class="ri-global-fill"></i></div>
+        <div id="try1">
+          <p onclick="location.href='login.php'" style="cursor:pointer; color:white; font-weight:bold;">Login</p>
+        </div>
+        <div id="try">
+          <p onclick="location.href='signup.php'" style="cursor:pointer; color:white; font-weight:bold;">Sign Up</p>
+
+        </div>
+      </div>
+      <div id="fakeheader"></div>
+      <div class="page1">
+        <div id="strip">
+          <h1 style="font-family:cursive;">
+            Make Your Dream Job a Reality With Workwave..........
+          </h1>
+        </div>
+        <div id="content">
+          <div id="box1">
+            <h1>Welcome to Workwave</h1>
+            <p>
+            Make your career shine in every aspect so that dreams may blend in reality.
+            </p>
+            <div id="btns">
+              <div id="btn1">
+                <h4 onclick="location.href='employee-signin.html'">Employee sign in</h4>
+              </div>
+              <div id="btn2"><h4 onclick="location.href='demo.html'">Watch demo</h4></div>
+            </div>
+          </div>
+          <div id="box2">
+            <img
+              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGpvYnN8ZW58MHx8MHx8fDA%3D"
+              alt="Image is not loading"
+            />
+          </div>
+        </div>
+       
+      
+      <div id="heading">
+        <h1>Trending on Workwave:</h1>
+      </div>
+    
+    <div class="page2">
+      <div class="square1">
+        
+        <img onclick="location.href='placement.html'" src="https://internshala.com/static/images/pgc_course_specific_banners/pgc_homepage_banner_new.png" alt="Image is not loading" />
+      </div>
+      <div class="square2">
+        <img onclick="location.href='summer-Training.html'" src="https://internshala-uploads.internshala.com/banner-images/home_new/stt_sta_may25-student.png.webp" alt="Image is not loading" />
+      </div>
+      <div class="square3">
+        <img onclick="location.href='internship.html'" src="https://internshala-uploads.internshala.com/banner-images/home_new/mega_internship_sprint-student.png.webp" alt="image is not loading" />
+      </div>
+    </div>
+    <div class ="page3">
+        <h1>Latest jobs on Workwave</h1>
+        <div class="categories">POPULAR CATEGORIES:
+          <button class="category ">Big Brands</button>
+          <button class="category">Work from home</button>
+          <button class="category">MBA</button>
+          <button class="category">Engineering</button>
+          <button class="category">Media</button>
+          <button class="category">Design</button>
+          <button class="category">Data Science</button>
+        </div>
+        <div class="internship-list">
+          <div class="internship-card" data-category="Big brands">
+              <h3>Law/Legal</h3>
+              <pre>Company: Thomas Cook</pre>
+              <pre>Location: Mumbai</pre>
+              <pre>Stipend:₹5,000/month</pre>
+              <pre>Duration: 3 Months</pre>
+              <button class="details-btn"onclick="openModal('modal1')">View details</button>
+          </div>
+          
+        <div class="internship-card" data-category="Engineering">
+            <h3>Embedded Systems</h3>
+            <pre>Company: India Nippon Electricals</pre>
+            <pre>Location: Hosur</pre>
+            <pre>Stipend: ₹15,000/month</pre>
+            <pre>Duration: 6 Months</pre>
+            <button class="details-btn" onclick="openModal('modal2')">View details</button>
+        </div>
+
+        <div class="internship-card" data-category="Finance">
+            <h3>Branch Executive</h3>
+            <pre>Company: Muthoot Finance</pre>
+            <pre>Location: Hyderabad</pre>
+            <pre>Stipend: ₹10,000/month</pre>
+            <pre>Duration: 6 Months</pre>
+            <button class="details-btn" onclick="openModal('modal3')">View details</button>
+        </div>
+        
+        <div class="internship-card" data-category="Finance">
+          <h3>Operations</h3>
+          <pre>Company: Hungama Digital Media</pre>
+          <pre>Location: Mumbai</pre>
+          <pre>Stipend: ₹5,000/month</pre>
+          <pre>Duration: 3 Months</pre>
+          <button class="details-btn" onclick="openModal('modal4')">View details</button>
+      </div>
+      <div class="internship-card" data-category="Finance">
+        <h3>Customer Service</h3>
+        <pre>Company: AECC Global</pre>
+        <pre>Location: Gurgaon</pre>
+        <pre>Stipend: ₹15,000/month</pre>
+        <pre>Duration: 6 Months</pre>
+        <button class="details-btn" onclick="openModal('modal5')">View details</button>
+    </div></div>
+    <div class="page 4">
+      <div class="job-list">
+   
+        <div class="job-card" data-category="Telecalling">
+        <h3>Operations</h3>
+        <pre>Company: Exhicom India</pre>
+        <pre>Location: Gurgaon</pre>
+        <pre>Stipend: ₹15,000/month</pre>
+        <pre>Duration: 6 Months</pre>
+        <button class="details-btn" onclick="openModal('modal6')">View details</button>
+    </div>
+    <div class="job-card" data-category="Digital Marketing">
+        <h3>Part time</h3>
+        <pre>Company: Cannibals Media Pvt.Ltd</pre>
+        <pre>Location: Work from home</pre>
+        <pre>Stipend: ₹3,000/month</pre>
+        <pre>Duration: 1 Months</pre>
+        <button class="details-btn" onclick="openModal('modal7')">View details</button>
+    </div>
+    <div class="job-card" data-category="HR">
+        <h3>MBA</h3>
+        <pre>Company: Cocoma Digital </pre>
+        <pre>Location: Mumbai</pre>
+        <pre>Stipend: ₹10,000/month</pre>
+        <pre>Duration: 6 Months</pre>
+        <button class="details-btn" onclick="openModal('modal8')">View details</button>
+    </div>
+    <div class="job-card" data-category="Dta Science">
+        <h3>Digital Marketing</h3>
+        <pre>Company: Eden Group</pre>
+        <pre>Location: Kolkata</pre>
+        <pre>Stipend: ₹15,000/month</pre>
+        <pre>Duration: 3 Months</pre>
+        <button class="details-btn" onclick="openModal('modal9')" >View details</button>
+    </div>
+    <div class="job-card" data-category="Design">
+        <h3>Graphic Designs</h3>
+        <pre>Company:Zero Dimensions</pre>
+        <pre>Location: Ahemdabad</pre>
+        <pre>Stipend: ₹8,000/month</pre>
+        <pre>Duration: 6 Months</pre>
+        <button class="details-btn" onclick="openModal('modal10')">View details</button>
+    </div></div>
+
+    <!-- MODALS -->
+  <div id="modal1" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal1')">&times;</span><h2>Law/Legal at Thomas Cook</h2><p>Work with the legal team on contracts, compliance, and policy.</p></div></div>
+  <div id="modal2" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal2')">&times;</span><h2>Embedded Systems at India Nippon</h2><p>Firmware development and hardware interfacing tasks.</p></div></div>
+  <div id="modal3" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal3')">&times;</span><h2>Branch Executive at Muthoot Finance</h2><p>Manage branch tasks and customer communication.</p></div></div>
+  <div id="modal4" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal4')">&times;</span><h2>Operations at Hungama</h2><p>Support coordination and daily business activities.</p></div></div>
+  <div id="modal5" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal5')">&times;</span><h2>Customer Service at AECC</h2><p>Assist in handling student queries and counseling.</p></div></div>
+  <div id="modal6" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal6')">&times;</span><h2>Operations at Exicorn India</h2><p>Assist in reconciliations, audits, and budgeting.</p></div></div>
+  <div id="modal7" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal7')">&times;</span><h2>Part Time at Cannibals Media</h2><p>Create social content and engage with followers remotely.</p></div></div>
+  <div id="modal8" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal8')">&times;</span><h2>MBA at Cocoma</h2><p>Market strategy and competitor analysis tasks.</p></div></div>
+  <div id="modal9" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal9')">&times;</span><h2>Digital Marketing at Eden</h2><p>SEO, ads optimization and campaign design.</p></div></div>
+  <div id="modal10" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('modal10')">&times;</span><h2>Graphic Designs at Zero Dimensions</h2><p>Design creative assets for digital platforms.</p></div></div> +
+  <footer>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WorkWave Footer</title>
+  <style>
+    /* General body */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: black;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #285482;
+      color: #f1f1f1;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-section {
+      flex: 1 1 250px;
+      margin: 10px 20px;
+      min-width: 250px;
+    }
+
+    /* About */
+    .footer-about h3 {
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+      color: #61dafb;
+    }
+
+    .footer-about p {
+      line-height: 1.6;
+    }
+
+    /* Popular Job Categories */
+    .job-categories h3 {
+      color: #ffffff; /* pure white */
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+    }
+
+    .job-categories ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .job-categories ul li {
+      margin-bottom: 10px;
+    }
+
+    .job-categories ul li a {
+      color: #f1f1f1; /* slightly off-white */
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .job-categories ul li a:hover {
+      color: #61dafb;
+    }
+
+    /* Social Icons */
+    .footer-socials h3 {
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+      color: #61dafb;
+    }
+
+    .social-icon {
+      margin-right: 15px;
+      display: inline-block;
+      transition: fill 0.3s ease;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+
+    .social-icon svg {
+      display: block;
+      fill: #f1f1f1;
+      width: 24px;
+      height: 24px;
+      transition: fill 0.3s ease;
+    }
+
+    .social-icon:hover svg {
+      fill: #61dafb;
+    }
+
+    /* Newsletter */
+    .newsletter h3 {
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+      color: #61dafb;
+    }
+
+    .newsletter form {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 3px 0 0 3px;
+      outline: none;
+      width: 70%;
+      font-size: 1rem;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #61dafb;
+      color: #0d253f;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 0 3px 3px 0;
+      transition: background-color 0.3s ease;
+    }
+
+    .newsletter button:hover {
+      background-color: #4bb1e1;
+    }
+
+    .newsletter-message {
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+      footer {
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer-section {
+        margin: 20px 0;
+      }
+      .newsletter form {
+        flex-wrap: wrap;
+      }
+      .newsletter input[type="email"] {
+        width: 100%;
+        border-radius: 3px;
+        margin-bottom: 10px;
+      }
+      .newsletter button {
+        width: 100%;
+        border-radius: 3px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <footer>
+    <div class="footer-section footer-about">
+      <h3>WorkWave</h3>
+      <p>Your ultimate job search companion. Connecting talented professionals with their dream careers effortlessly.</p>
+    </div>
+
+    <div class="footer-section job-categories">
+      <h3>Popular Job Categories</h3>
+      <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Healthcare</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Education</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section footer-socials">
+      <h3>Follow Us</h3>
+      <a href="#" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
+          <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 4.99 3.66 9.12 8.44 9.88v-6.99h-2.54v-2.89h2.54v-2.21c0-2.51 1.49-3.89 3.77-3.89 1.09 0 2.23.19 2.23.19v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.89h2.78l-.44 2.89h-2.34v6.99c4.78-.76 8.44-4.89 8.44-9.88z"/>
+        </svg>
+      </a>
+
+      <a href="#" aria-label="Twitter" title="Twitter" target="_blank" rel="noopener" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
+          <path d="M23 3a10.9 10.9 0 01-3.14.85 5.48 5.48 0 002.4-3 10.72 10.72 0 01-3.46 1.33 5.35 5.35 0 00-9.11 4.9A15.14 15.14 0 012 4.57a5.35 5.35 0 001.66 7.14 5.21 5.21 0 01-2.42-.67v.07a5.36 5.36 0 004.29 5.25 5.44 5.44 0 01-2.4.09 5.36 5.36 0 005 3.72A10.72 10.72 0 012 19.54 15.11 15.11 0 008.29 21c9.05 0 14-7.5 14-14v-.64A10.11 10.11 0 0023 3z"/>
+        </svg>
+      </a>
+
+      <a href="#" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
+          <path d="M19 3A2 2 0 0121 5v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zm-9.25 14.25v-5.5H7.5v5.5h2.25zm-1.13-6.38a1.31 1.31 0 110-2.62 1.31 1.31 0 010 2.62zm7.38 6.38v-3a2.63 2.63 0 00-2.5-2.63c-.58 0-1.06.31-1.31.69v-1.48H9.63v5.5h2.25v-2.75c0-.72.58-1.31 1.31-1.31s1.31.59 1.31 1.31v2.75h2.25z"/>
+        </svg>
+      </a>
+
+      <a href="#" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
+          <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 3a1 1 0 110 2 1 1 0 010-2zm-5 3a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="footer-section newsletter">
+      <h3>Newsletter</h3>
+      <form id="newsletter-form" novalidate>
+        <input type="email" id="email" placeholder="Enter your email" required aria-label="Email address" />
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="newsletter-message" id="message" role="alert" aria-live="polite"></div>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById('newsletter-form');
+    const emailInput = document.getElementById('email');
+    const messageDiv = document.getElementById('message');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const email = emailInput.value.trim();
+
+      if (validateEmail(email)) {
+        messageDiv.style.color = 'lightgreen';
+        messageDiv.textContent = 'Thank you for subscribing!';
+        emailInput.value = '';
+      } else {
+        messageDiv.style.color = 'tomato';
+        messageDiv.textContent = 'Please enter a valid email address.';
+      }
+    });
+
+    function validateEmail(email) {
+      const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return re.test(email);
+    }
+  </script>
+</body>
+</html>
+
+
+  </footer>
+</body>
+</html>

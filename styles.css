@@ -1,0 +1,401 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(to bottom, #E0C3FC, #8EC5FC);
+    background-size: 300% 300%;
+   
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{ 
+    height: 100%;
+    width: 100%;
+
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    height: 60%;
+    object-fit: cover;
+    margin: 25px;
+    cursor: pointer;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    color: rgb(234, 234, 244);
+    display: flex;
+    cursor: pointer;
+}
+.text:hover{
+    background-color: rgb(8, 109, 143);
+}
+#contactdetails{
+    margin-left: 40px;
+    font-weight: lighter;
+}
+.icon{
+   
+   padding: 10px;
+   border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+}
+
+#try{
+    margin: 0px;
+    margin-right: 110px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    
+}
+#try1{
+    margin: 0px;
+    margin-left: 110px;
+    padding: 10px 20px;
+    background-color: rgb(147, 85, 24);
+    color: white;
+    
+}
+#try:hover{
+   
+    background-color: rgb(2, 34, 2);
+   
+    
+}
+#try1:hover{
+   
+    background-color: rgb(133, 20, 20);
+   
+    
+}
+#login{
+   
+    display: flex;
+    padding: 10px;
+    border-radius: 50%;
+   
+ }
+ #login:hover{
+    background-color:lightblue;
+ }
+#fakeheader{
+    height: 10%;
+    width: 100%;
+  
+}
+
+.page1{
+    height: 87%;
+    width: 100%;
+   
+    justify-content: center;
+} 
+#strip{
+    width: 100%;
+    height: 13%;
+    color: rgb(23, 16, 163);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter  ;
+}
+
+#box1{
+    height: 90%;
+    width: 50%;
+   
+    margin: 10px;
+    margin-top: 25px;
+   
+    
+}
+#box2{
+    height: 90%;
+    background-color: gray;
+    width: 50%;
+    margin: 10px;
+    margin-top: 25px;
+   
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#heading{
+width: 100%;
+height: 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: blue;
+}
+#heading h1{
+    font-weight :900px;
+    font-family: cursive;
+    height: 100%;
+}
+#box1 h1{
+    font-weight: 600;
+    color: rgb(28, 28, 78);
+    font-size: 50px;
+    margin: 30px 10px;
+  
+}
+#box1 p{
+    font-size: x-large;
+    margin: 30px 10px;
+    
+}
+
+#content{
+width: 100%;
+height: 76%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#btns{
+    display: flex;
+    justify-content: center;
+   
+
+}
+#btn1{
+    text-align: center;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(5, 190, 252);
+    border-radius: 5px;
+  
+}
+#btn1:hover{
+    background-color: rgb(4, 57, 75);
+}
+#btn2:hover{
+    background-color: rgb(172, 229, 248);
+}
+#btn2{
+    text-align: center;
+    width: 23%;
+    padding: 10px 20px;
+    color: rgb(15, 156, 203);
+    border: 1px solid rgb(9, 190, 250);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.page2{
+    height: 87%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}  
+.square1{
+    
+    height: 60%;
+    width: 30%;
+    border-radius: 15px;
+    border-style:solid;
+    border-color: rgb(197, 185, 185);
+    cursor: pointer;
+    justify-content: center;
+}
+.square1:hover{
+    transform: scale(1.1);
+}
+.square2{
+  
+    height: 60%;
+    width: 30%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(197, 185, 185);
+    cursor: pointer;
+}
+.square2:hover{
+    transform: scale(1.1);
+}
+.square3{
+   
+    height: 60%;
+    width: 30%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(197, 185, 185);
+    cursor: pointer;
+}
+.square3:hover{
+    transform: scale(1.1);
+}
+
+.page3{
+    height: 87%;
+    width: 100%;
+  
+} 
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.categories {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.category {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+.internship-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.internship-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+.details-btn:hover{
+    background-color:rgb(10, 10, 52) ;
+}
+
+.internship-card h3 {
+    margin: 0;
+    color: #0073e6;
+}
+
+.internship-card p {
+    margin: 5px 0;
+}
+
+.details-btn {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+.page4{
+    height: 87%;
+     width: 100%;}
+
+.job-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}     
+.job-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    transition: all 0.3s ease-in-out;
+    
+}
+.job-card h3 {
+    margin: 0;
+    color: #0073e6;
+}
+
+.job-card p {
+    margin: 5px 0;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+
+
+
+  
+
+
+
